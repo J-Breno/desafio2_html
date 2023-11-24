@@ -1,0 +1,92 @@
+/* eu ainda não fiz o curso de css, tudo que eu utilizei aqui foi lendo a documentação, se tiver algo não semântico releve */
+
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 1000px;
+  max-height: 100vh;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a2a2a2;
+}
+header img#logo-clinica {
+  width: 200px;
+}
+div.container-main {
+  display: flex;
+  height: 550.5px;
+  background-color: #f7f7f7;
+}
+div.navegacao {
+  background-color: #e5e5e5;
+  margin: 0px;
+}
+nav.menu {
+  width: 250px;
+}
+a,
+li {
+  text-decoration: none;
+  color: #0764de;
+  list-style-type: none;
+}
+a:hover {
+  cursor: pointer;
+}
+nav.menu h2 {
+  padding: 20px 23px;
+}
+div.div-main {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+div.div-main h2 {
+  padding: 20px 0px;
+}
+div.div-main p {
+  padding-bottom: 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 10px;
+}
+footer h2 {
+  padding-top: 10px;
+}
+footer {
+  background-color: #a2a2a2;
+  height: 80px;
+}
+footer a {
+  color: #014195;
+}
+table.tabela th {
+  background-color: black;
+  color: #fff;
+  text-align: left;
+}
+table.tabela td {
+  border: 1px solid #000;
+}
+table {
+  width: 600px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin: 0;
+}
+/*  */
+input#name,
+input#email {
+  margin: 5px 10px;
+}
+input#assunto {
+  margin: 5px 15px;
+}
